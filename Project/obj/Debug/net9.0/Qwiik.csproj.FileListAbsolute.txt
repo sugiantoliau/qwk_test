@@ -1,0 +1,7 @@
+C:\qwk_test\obj\Debug\net9.0\Qwiik.csproj.AssemblyReference.cache
+C:\qwk_test\obj\Debug\net9.0\Qwiik.GeneratedMSBuildEditorConfig.editorconfig
+C:\qwk_test\obj\Debug\net9.0\Qwiik.AssemblyInfoInputs.cache
+C:\qwk_test\obj\Debug\net9.0\Qwiik.AssemblyInfo.cs
+C:\qwk_test\obj\Debug\net9.0\Qwiik.csproj.CoreCompileInputs.cache
+C:\qwk_test\obj\Debug\net9.0\Qwiik.MvcApplicationPartsAssemblyInfo.cs
+C:\qwk_test\obj\Debug\net9.0\Qwiik.MvcApplicationPartsAssemblyInfo.cache

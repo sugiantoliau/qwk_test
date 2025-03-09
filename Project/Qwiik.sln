@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentAPI", "AppointmentAPI.csproj", "{88BB3B3B-F4CF-4ED4-AAFA-D1F4F359A69E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentAPITests", "..\xUnitTest\AppointmentAPITests\AppointmentAPITests.csproj", "{32E05A52-E0D9-409F-8E27-224C029150DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88BB3B3B-F4CF-4ED4-AAFA-D1F4F359A69E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88BB3B3B-F4CF-4ED4-AAFA-D1F4F359A69E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88BB3B3B-F4CF-4ED4-AAFA-D1F4F359A69E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88BB3B3B-F4CF-4ED4-AAFA-D1F4F359A69E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32E05A52-E0D9-409F-8E27-224C029150DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32E05A52-E0D9-409F-8E27-224C029150DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32E05A52-E0D9-409F-8E27-224C029150DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32E05A52-E0D9-409F-8E27-224C029150DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EB9E1D2-F6AA-454A-9E43-093F384FA903}
+	EndGlobalSection
+EndGlobal

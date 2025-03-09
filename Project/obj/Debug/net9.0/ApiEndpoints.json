@@ -1,0 +1,50 @@
+[
+  {
+    "ContainingType": "AppointmentController",
+    "Method": "GetAppointmentsForDay",
+    "RelativePath": "webapi/Appointment/{date}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "date",
+        "Type": "System.DateTime",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppointmentController",
+    "Method": "BookAppointment",
+    "RelativePath": "webapi/Appointment/book",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppointmentController",
+    "Method": "SetHoliday",
+    "RelativePath": "webapi/Appointment/holiday",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "holiday",
+        "Type": "AppointmentAPI.Domain.Holiday",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
