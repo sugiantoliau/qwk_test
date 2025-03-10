@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\IAS\qwk_test\publish</_PublishTargetUrl>
+    <History>True|2025-03-10T09:02:50.6961154Z||;False|2025-03-10T16:02:38.0502844+07:00||;True|2025-03-10T14:41:45.4224905+07:00||;False|2025-03-10T14:37:19.7779592+07:00||;True|2025-03-10T12:06:56.2395443+07:00||;True|2025-03-10T12:05:18.0031519+07:00||;True|2025-03-10T12:03:18.3406856+07:00||;False|2025-03-10T12:02:49.4037738+07:00||;False|2025-03-10T12:01:49.4512589+07:00||;True|2025-03-10T11:33:36.9666924+07:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

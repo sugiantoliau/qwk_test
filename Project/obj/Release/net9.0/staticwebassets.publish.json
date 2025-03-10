@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ULPqM1XawFNLqamBKfbrlRS8bVheSJGe4+XJzWxA/Uk=",
+  "Source": "AppointmentAPI",
+  "BasePath": "_content/AppointmentAPI",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

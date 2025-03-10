@@ -2,7 +2,7 @@
   {
     "ContainingType": "AppointmentController",
     "Method": "GetAppointmentsForDay",
-    "RelativePath": "webapi/Appointment/{date}",
+    "RelativePath": "Appointment/{date}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -18,7 +18,7 @@
   {
     "ContainingType": "AppointmentController",
     "Method": "BookAppointment",
-    "RelativePath": "webapi/Appointment/book",
+    "RelativePath": "Appointment/book",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -34,7 +34,7 @@
   {
     "ContainingType": "AppointmentController",
     "Method": "SetHoliday",
-    "RelativePath": "webapi/Appointment/holiday",
+    "RelativePath": "Appointment/holiday",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

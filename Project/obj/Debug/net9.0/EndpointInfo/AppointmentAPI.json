@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/webapi/Appointment/book": {
+    "/Appointment/book": {
       "post": {
         "tags": [
           "Appointment"
@@ -36,7 +36,7 @@
         }
       }
     },
-    "/webapi/Appointment/{date}": {
+    "/Appointment/{date}": {
       "get": {
         "tags": [
           "Appointment"
@@ -59,7 +59,7 @@
         }
       }
     },
-    "/webapi/Appointment/holiday": {
+    "/Appointment/holiday": {
       "post": {
         "tags": [
           "Appointment"

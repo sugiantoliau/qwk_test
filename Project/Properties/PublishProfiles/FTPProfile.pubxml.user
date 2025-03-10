@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAARR8oZvD8QkWY5K1jjKnt/wAAAAACAAAAAAAQZgAAAAEAACAAAABwbn7YPKt1exEceYfZe0XhTog5SlN/EsZWJHtB9CotkgAAAAAOgAAAAAIAACAAAAAoY0VmEnIuaNTZ9q4oEnqIvmBDTAXm3X2VSi4IRX89fYAAAABLn6t3yrMG2+fIQ1tkjKa8LRyX0XDyXi1psM4o6bhfSt/0i/ww4Crcq7lGxeM1cJayIyYgv0/FsOu5h8/tFrYSX5lKRyHQPm51+OmRwQv70nG9ZKc/tWo209URwR9ZhZ6HaoOMxeIs7Nah3zL3NY32gxtjolOuQrmaH4XgTU0bv0AAAAD9pwWleLxRu3wsrwUb8DEh6zhKEJ/zNIVD4PmU7xVBPv7nkJRSygX+1dlMWPTMWHrnuM18WB90GuUqcjZaKfC9</EncryptedPassword>
+    <_PublishTargetUrl>ftps://waws-prod-sg1-029.ftp.azurewebsites.windows.net/site/wwwroot</_PublishTargetUrl>
+    <History>False|2025-03-10T05:01:09.2776611Z||;True|2025-03-10T11:42:28.8474212+07:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AppointmentAPI.deps.json">
+      <publishTime>03/10/2025 12:01:05</publishTime>
+    </File>
+    <File Include="AppointmentAPI.dll">
+      <publishTime>03/10/2025 11:42:08</publishTime>
+    </File>
+    <File Include="AppointmentAPI.exe">
+      <publishTime>03/10/2025 12:01:05</publishTime>
+    </File>
+    <File Include="AppointmentAPI.pdb">
+      <publishTime>03/10/2025 12:01:05</publishTime>
+    </File>
+    <File Include="AppointmentAPI.runtimeconfig.json">
+      <publishTime>03/10/2025 12:01:05</publishTime>
+    </File>
+    <File Include="AppointmentAPI.staticwebassets.endpoints.json">
+      <publishTime>03/10/2025 12:01:06</publishTime>
+    </File>
+    <File Include="appsettings.Development.json">
+      <publishTime>03/10/2025 10:16:00</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>03/10/2025 10:16:00</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <publishTime>01/18/2025 00:02:50</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.dll">
+      <publishTime>01/18/2025 00:03:32</publishTime>
+    </File>
+    <File Include="Microsoft.OpenApi.dll">
+      <publishTime>09/30/2024 16:56:48</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.Swagger.dll">
+      <publishTime>02/28/2025 02:18:38</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerGen.dll">
+      <publishTime>02/28/2025 02:18:54</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerUI.dll">
+      <publishTime>02/28/2025 02:18:46</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>03/10/2025 12:01:06</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

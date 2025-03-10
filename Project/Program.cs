@@ -12,18 +12,13 @@ using Microsoft.AspNetCore.Builder;
 using AppointmentAPI.Application.Services;
 using AppointmentAPI.Domain;
 using Microsoft.Extensions.DependencyInjection;
-
+using Azure.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-
-
-builder.Services.AddSwaggerGen();
-
-
+builder.Services.AddSwaggerGen();  
 builder.Services.AddScoped<AppointmentAPI.Application.Interfaces.IAppointmentService, AppointmentService>();
 
 
@@ -40,32 +35,21 @@ builder.Services.AddCors(options =>
 var app = builder.Build();
 
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseDeveloperExceptionPage();
+app.UseExceptionHandler("/error");
+app.UseHsts();
 
-    
-    app.UseSwagger();    
-
-    app.UseSwaggerUI(options =>
-    {
-        options.SwaggerEndpoint("/swagger/v1/swagger.json", "QWIIK API v1");  
-        options.DocumentTitle = "QWIIK Project";  
-    });
-}
-else
+app.UseSwagger();
+app.UseSwaggerUI(options =>
 {
-    
-    app.UseExceptionHandler("/error");
-    app.UseHsts();
-}
+    options.SwaggerEndpoint("/swagger/v1/swagger.json", "QWIIK API v1");
+    options.DocumentTitle = "QWIIK Project";
+});
 
 
 app.UseCors("AllowAll");
-
 app.UseHttpsRedirection();
 app.UseRouting();
 app.UseAuthorization();
 
-app.MapControllers();
+app.MapControllers(); 
 app.Run();
